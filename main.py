@@ -52,7 +52,7 @@ def convertFromFormat2(jsonObject):
         '%Y-%m-%dT%H:%M:%S.%fZ'
     )
     timestamp = round(
-        (date - datetime.datetime(1970, 1, 1)).total_seconds() * 1000
+        (date - datetime(1970, 1, 1)).total_seconds() * 1000
     )
     
     result = {
