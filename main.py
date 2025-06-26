@@ -32,3 +32,10 @@ def iso_to_millis(iso_str):
     dt = datetime.strptime(iso_str, '%Y-%m-%dT%H:%M:%S.%fZ')
     epoch = datetime(1970, 1, 1, tzinfo=dt.tzinfo)
     return int((dt - epoch).total_seconds() * 1000)
+
+def normalize_data1(data1):
+    # Convert ISO 8601 timestamp to milliseconds
+    data1["timestamp"] = iso_to_millis(data1["timestamp_iso"])
+    # Remove the original ISO timestamp field
+    del data1["timestamp_iso"]
+    return data1
