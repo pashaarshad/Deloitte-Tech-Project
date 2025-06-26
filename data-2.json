@@ -1,0 +1,16 @@
+[
+  {
+    "device": {
+      "id": "DEV002",
+      "type": "actuator"
+    },
+    "timestamp": "2023-01-01T12:00:00.000Z",
+    "country": "Canada",
+    "city": "Toronto",
+    "area": "Downtown",
+    "factory": "Factory2",
+    "section": "SectionB",
+    "status": "inactive",
+    "temperature": 18.2
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "deviceID": "DEV001",
+    "deviceType": "sensor",
+    "timestamp": 1672574400000,
+    "location": "USA/NYC/Manhattan/Factory1/SectionA",
+    "operationStatus": "active",
+    "temp": 23.5
+  }
+]
